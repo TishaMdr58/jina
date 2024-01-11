@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  width: 1381px;
+  height: 750px;
+  flex-shrink: 0;
+  background-color: rgba(185, 134, 69, 0.1);
+  display: flex;
+  position: relative;
+}
+
+.image {
+  width: 611.503px;
+  height: 473px;
+  flex-shrink: 0;
+  padding: 100px;
+  position: absolute;
+}
+
+.paragraph {
+  background-color: #fff;
+  width: 642px;
+  height: 360px;
+  flex-shrink: 0;
+  padding: 30px;
+  margin-top: 200px;
+  margin-left: 700px;
+  position: absolute;
+}
+
+.header_Image {
+  display: flex;
+}
+
+.header {
+  color: #b98645;
+  font-family: Noto Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.flower {
+  width: 214px;
+  height: 214px;
+  position: absolute;
+  margin-left: 210px;
+  bottom: 90px;
+}
+
+.paragraph p {
+  color: rgba(32, 36, 29, 0.89);
+  text-align: justify;
+  font-family: Noto Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
